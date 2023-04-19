@@ -42,6 +42,7 @@ module.exports = async function register(req, res, db) {
           crackedClueTimeStamp:"",
           crackedRiddleTimeStamp:"",
           score: 0.0,
+          scanKey:["Key11"]
         },
       ],
     };
