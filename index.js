@@ -6,6 +6,6 @@ console.log(MONGO_CONNECTION_URL);
 mongoClient.connect(MONGO_CONNECTION_URL, function (err, client) {
   if (err) console.log(err);
   else console.log("Connected successfully to database");
-  let db = client.db("lostinspace");
+  const db = client.db("lostinspace");
   require("./server")(db);
 });
