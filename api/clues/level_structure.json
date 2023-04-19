@@ -1,0 +1,73 @@
+[
+  {
+    "level": 1,
+    "clues": ["cid11"],
+    "locationPoints": 5,
+    "riddlePoints": 12,
+    "scanKeys": ["Key11", "Key12", "Key13"],
+    "riddles": [
+      {
+        "scanKey": "Key11",
+        "answer": "Answer11",
+        "followclueId": "cid21"
+      },
+      {
+        "scanKey": "Key12",
+        "answer": "Answer12",
+        "followclueId": "cid22"
+      },
+      {
+        "scanKey": "Key13",
+        "answer": "Answer13",
+        "followclueId": "cid23"
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "clues": ["cid21", "cid22", "cid23"],
+    "locationPoints": 25,
+    "riddlePoints": 50,
+    "scanKeys": ["Key21", "Key22"],
+    "riddles": [
+      {
+        "scanKey": "Key21",
+        "answer": "Answer21",
+        "followclueId": "cid31"
+      },
+      {
+        "scanKey": "Key22",
+        "answer": "Answer22",
+        "followclueId": "cid32"
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "clues": ["cid31"],
+    "locationPoints": 25,
+    "riddlePoints": 50,
+    "scanKeys": ["Key31"],
+    "riddles": [
+      {
+        "scanKey": "Key31",
+        "answer": "Answer31",
+        "followclueId": "cid41"
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "clues": ["cid41"],
+    "locationPoints": 25,
+    "riddlePoints": 50,
+    "scanKeys": ["Key41"],
+    "riddles": [
+      {
+        "scanKey": "Key41",
+        "answer": "Answer41",
+        "followclueId": ""
+      }
+    ]
+  }
+]
